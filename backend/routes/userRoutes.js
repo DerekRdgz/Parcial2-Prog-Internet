@@ -13,6 +13,7 @@ router.post("/login", loginUser);
 // Ruta para obtener perfil del usuario autenticado
 router.get("/me", protect, getMe);
 
+//Ruta para actualizar el usuario
 router.put("/:id", updateUser);
 
 //Eliminar Tareas
